@@ -5,8 +5,6 @@ function Emisor(codigo, nombre, direccion, ciudad, tipo) {
     this.direccion = direccion;
     this.ciudad = ciudad;
     this.tipo = tipo;
-    //this.paralelo = paralelo;
-    //this.registroHora = new Date();
 }
 
 // LISTA DE SUCURSALES O EMISORES
@@ -45,7 +43,7 @@ document.getElementById("enviar")
             document.forma.tipoOb.value = emisor.tipo;
             console.log(emisor.codigo + " " + emisor.nombre + " " + emisor.direccion + " " + emisor.ciudad);
 
-    //GENERAR INVENTARIO
+      //GENERAR INVENTARIO
 
       //  document.getElementById("enviar")
       //  .addEventListener("click", function () {
@@ -54,16 +52,9 @@ document.getElementById("enviar")
             var valorCantidad = document.getElementById("cantidadOb").value;
             var valorPedido = document.getElementById("pedidoOb").value;
  
-    
- 
-
-
             console.log(valorPieza);
             console.log(valorCantidad);
             console.log(valorPedido);
-
-            
-            
 
             var tabla = document.getElementById("table")
 
@@ -99,18 +90,12 @@ document.getElementById("enviar")
             tr.appendChild(td8);
             tabla.appendChild(tr);
 
-      //  });
-        
-    }
+    //  });
+       
+        }
     });
 
-   /*function cambiarFondo(x) {
-        console.log(x.value);
-        var pintar = document.getElementById('pinta');
-        pintar.style.backgroundColor = 'red';  
-        
-        onchange="cambiarFondo(this)
-    }*/
+  
  
    
   
