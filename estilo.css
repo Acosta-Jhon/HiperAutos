@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    box-sizing:border box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    background-color: #000;
+    padding: 20px 10%;
+    float: left;
+}
+
+header h2 {
+    color: orange;
+    float: left;
+}
+
+header h2 span{color: #ffffff;}
+
+header nav{float:right;}
+header nav ul {list-style: none;}
+header nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+header nav ul li a {
+    color: orange;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+header nav ul li a:hover{
+color:#ffffff;
+background-color: orange;
+padding: 10px;
+
+}
+
+main {
+    width: 50%;
+    float: left;
+}
+main.dos {
+    width: 50%;
+    float: right;
+}
+
+section{
+    width: 95%;
+    padding: 30px 2%;
+}
+section fieldset{
+    border:2px solid #c3c3c3 ;
+    padding: 10px 5%;
+}
+
+section.dos fieldset{
+    border:2px solid #c3c3c3 ;        
+}
+
+section fieldset legend{
+    font-weight: bold;
+    font-size:2rem ;
+  
+}
+
+section form{
+    width: 100%;
+}
+
+section form label{
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    
+    float: left;
+}
+
+section form p{
+    background-color: rgb(170, 27, 27);
+    color: #fff;
+    padding: 10px;
+    display: none;
+}
+section form input {
+    width:100% ;
+    padding: 10px;
+    border-radius: 4px ;
+}
+section form select{
+    width: 100%;
+    padding: 10px;
+    background-color: #c3c3c3;
+    color: #000; 
+     border-radius: 4px;
+}
+.enviar{
+    width: 100%;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    text-transform:  uppercase;
+}
+.enviar:hover{
+    background-color: #ffa50080;
+}
+
+
+table {     
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 45px;     
+    width: 480px; text-align: left;    
+    border-collapse: collapse; }
+
+th {     
+    font-size: 13px;     
+    font-weight: normal;    
+     padding: 8px;     
+     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    
+    padding: 8px;     
+    background: #e8edff;     
+    border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; }
+
+tr:hover td { 
+    background: #d0dafd; 
+    color: #339; 
+}
